@@ -8,50 +8,30 @@
 </head>
 <body>
 
-    <div id="sidebar">
-        <span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16">
-              <g fill="#252a32" fill-rule="evenodd">
-                <path d="M0 0h24v2H0zM0 7h24v2H0zM0 14h24v2H0z" />
-              </g>
-            </svg>
-            <ul>
-                <li><a href="about me.html">About Me</a></li>
-                <ul>
-                    <li><a href="#hobbies&intrests">Hobbies & Intrests</a></li>
-                    <li><a href="#travels">Travels</a></li>
-                </ul>
-                <li><a href="artwork.html">Artwork</a></li>
-                <li><a href="coding_projects.html">Coding Projects</a></li>
-                <li><a href=""></a></li>
-                <li><a href="contact_me.html">Contact Me</a></li>
-            </ul>
+    <main>
+        <div id="header"> 
+            <h1>About Me</h1>
+            <!-- put a image background slightly blurred-->
+        </div>
 
-          </span>
-    </div>
+        <div id="aboutme"> 
+            <!-- Best Photo I have of myself -->
+            <p>Hello, my name is Jenisha Patel, and I am a high school student studying at Chinguacousy Secondary School in their SciTech program. I was born on July 18th, 2008, and am currently 15 years old. Some things that I enjoy are arts, such as drawing, painting, and dance. I have always had a passion for STEM (Science, Technology, Engineering, & Math); however, it was only last summer where I discovered how much I enjoyed programming and computer science. You can learn more about my intrests in the slides below.</p>
+        </div>
 
-    <div id="header"> 
-        <h1>About Me</h1>
-        <!-- put a image background slightly blurred-->
-    </div>
+        <ul>
+            <li><a href="#hobbies&intrests">Hobbies & Intrests</a></li>
+            <li><a href="#travels">Travels</a></li>
+        </ul>
+        
+    </main>
 
-    <div id="aboutme"> 
-        <!-- Best Photo I have of myself -->
-        <p>Hello, my name is Jenisha Patel, and I am a high school student studying at Chinguacousy Secondary School in their SciTech program. I was born on July 18th, 2008, and am currently 15 years old. Some things that I enjoy are arts, such as drawing, painting, and dance. I have always had a passion for STEM (Science, Technology, Engineering, & Math); however, it was only last summer where I discovered how much I enjoyed programming and computer science. You can learn more about my intrests in the slides below.</p>
-    </div>
-
-    <ul>
-        <li><a href="#hobbies&intrests">Hobbies & Intrests</a></li>
-        <li><a href="#travels">Travels</a></li>
-    </ul>
-    
     <div class="slider">
         <div id="hobbies&intrests">
-            <h2>Hobbies & Intrests</h2>
-            <!-- Have it like a mini slide show 
-            https://www.instagram.com/reel/C1tl_XYLFgj/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA== 
-            -->
             <ul>
+                <li><h2>Hobbies & Intrests</h2></li>
+                <!-- Have it like a mini slide show https://www.instagram.com/reel/C1tl_XYLFgj/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA== -->
+
                 <li class='item' style="background-image: url(https://i.pinimg.com/564x/1b/b0/af/1bb0af49b10cc60c8cfcd0be55527c47.jpg);">
                     <div class="content" id="art">
                         <h3 class="title" >Art</h3>
@@ -63,7 +43,7 @@
                 <li class='item' style="background-image: url(https://i.pinimg.com/564x/69/c2/6f/69c26f4005266ca4bf1fd3ea41194614.jpg);">
                     <div class="content"  id="robotics">
                         <h3 class="title">Robotics</h3>
-                        <p class="description">One of the things I've always done since I was a child was robotics.I was exposed tothe world of STEM at a very young age and I've learned a lot because of this. Currently I am apart of the FRC <a href="https://www.instagram.com/3560frc/">Team 3560</a>, from Chinguacousy Secondary School.I've been apart of 3560's buisness team for two year, and currently am the team's socail media manager.</p>
+                        <p class="description"> One of the things I've always done since I was a child was robotics.I was exposed tothe world of STEM at a very young age and I've learned a lot because of this. Currently I am apart of the FRC <a href="https://www.instagram.com/3560frc/">Team 3560</a>, from Chinguacousy Secondary School.I've been apart of 3560's buisness team for two year, and currently am the team's socail media manager.</p>
                         <!-- ADD PICTURES -->
                     </div>
                 </li>
@@ -91,6 +71,14 @@
                         <p class="description">Another thing that i enjoy doing is reading</p>
                     </div>
                 </li>
+
+                <li class='item' style="background-image: url('https://i.pinimg.com/564x/b3/a4/56/b3a4565f3c8d1eb31fc0e3b6dbd64962.jpg');">
+                    <div class="content" id="travels">
+                        <h4>Travels</h4>
+                        <p>A few reasons I enjoy traveling are ... want to learn more about the places i've been to and where i plan to visit in the comming years.</p>
+                        <button><a href="travels.html">Learn More</a></button>
+                    </div>
+                </li>
             </ul>
         </div>
     </div>
@@ -99,49 +87,13 @@
         <ion-icon class='btn prev' name="arrow-back-outline"></ion-icon>
         <ion-icon class='btn next' name="arrow-forward-outline"></ion-icon>
     </nav>
-<!--
-    <div id="travels">
-        <h2>Travels</h2>
-        <ul>
-            <li class='item' style="background-image: url('https://i.pinimg.com/564x/b3/a4/56/b3a4565f3c8d1eb31fc0e3b6dbd64962.jpg');"></li>
- wriite about passion for traveling
-            <div>
-                <p>A few reasons I enjoy traveling are ...</p>
-            </div>
- travel bucket list 
-            <li class='item' style="background-image: url(https://i.pinimg.com/564x/bf/6e/64/bf6e648f0539d773e5edbc4d25d8a40c.jpg);"></li>
-            <div id="travelwishlist">
-                <h4>Travel Bucket List</h4>
-            </div>
 
-            <div id="india">
-                <h4>India</h4>
-                 Include Pictures with captions
-            </div>
-
-            <div id="montreal">
-                <h4>Montreal</h4>
-               Include Pictures with captions
-            </div>
-
-            <div id="toronto">
-                <h4>Toronto</h4>
-                -- Include Pictures with captions-
-            </div>
-        </ul>
-    </div>
-
-
-    <nav class='nav'>
-        <ion-icon class='btn prev' name="arrow-back-outline"></ion-icon>
-        <ion-icon class='btn next' name="arrow-forward-outline"></ion-icon>
-    </nav>
--->
-
-    <div id="footer">
-        <a href="contact_me.html">Contact Me</a>
-        <!-- Soicals Link Copy from my portfolio starting page-->
-    </div>
+    <footer>    
+        <div id="footer">
+            <a href="contact_me.html">Contact Me</a>
+            <!-- Soicals Link Copy from my portfolio starting page-->
+        </div>
+    </footer>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>

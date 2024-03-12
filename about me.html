@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jenisha's Portfolio</title>
+    <link rel="stylesheet" href="my portfolio.css">
 </head>
 <body>
+
+    <div id="sidebar">
+        <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16">
+              <g fill="#252a32" fill-rule="evenodd">
+                <path d="M0 0h24v2H0zM0 7h24v2H0zM0 14h24v2H0z" />
+              </g>
+            </svg>
+            <ul>
+                <li><a href="about me.html">About Me</a></li>
+                <ul>
+                    <li><a href="#hobbies&intrests">Hobbies & Intrests</a></li>
+                    <li><a href="#travels">Travels</a></li>
+                </ul>
+                <li><a href="artwork.html">Artwork</a></li>
+                <li><a href="coding_projects.html">Coding Projects</a></li>
+                <li><a href=""></a></li>
+                <li><a href="contact_me.html">Contact Me</a></li>
+            </ul>
+
+          </span>
+    </div>
+
     <div id="header"> 
         <h1>About Me</h1>
         <!-- put a image background slightly blurred-->
@@ -13,8 +37,7 @@
 
     <div id="aboutme"> 
         <!-- Best Photo I have of myself -->
-        <p>Hello, my name is Jenisha Patel, and I am a high school student studying at Chinguacousy Secondary School in their SciTech program. I was born on July 18th, 2008, and am currently 15 years old. Some things that I enjoy are arts, such as drawing, painting, and dance. I have always had a passion for STEM (Science, Technology, Engineering, & Math); however, it was only last summer where I discovered how much I enjoyed programming and computer science. ADD MORE
-        See some of my other interests down below.</p>
+        <p>Hello, my name is Jenisha Patel, and I am a high school student studying at Chinguacousy Secondary School in their SciTech program. I was born on July 18th, 2008, and am currently 15 years old. Some things that I enjoy are arts, such as drawing, painting, and dance. I have always had a passion for STEM (Science, Technology, Engineering, & Math); however, it was only last summer where I discovered how much I enjoyed programming and computer science. You can learn more about my intrests in the slides below.</p>
     </div>
 
     <ul>
@@ -27,53 +50,79 @@
         <!-- Have it like a mini slide show 
         https://www.instagram.com/reel/C1tl_XYLFgj/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA== 
         -->
-        <div id="art">
-            <h3>Art</h3>
-            <p>Write about artwork that i have made & how i got intredted in in... See more in <strong><a href="artwork.html">artwork</a></strong> page</p>
-            <h4><a href="artwork.html">Artwork</a></h4> <!-- Link Art Work Page-->
-        </div>
+        <ul>
+            <div id="art">
+                <li class='item' style="background-image: url(https://i.pinimg.com/564x/1b/b0/af/1bb0af49b10cc60c8cfcd0be55527c47.jpg);"></li>
+                <!-- <img src="Jenisha's Proflie Image.jpg" > -->
+                <h3>Art</h3>
+                <p>Write about artwork that i have made & how i got intredted in in... See more in <strong><a href="artwork.html">artwork</a></strong> page</p>
+                <h4><a href="artwork.html">Artwork</a></h4> <!-- Link Art Work Page-->
+            </div>
 
-        <div id="robotics">
-            <h3>Robotics</h3>
-            <p>One of the things I've always done since I was a child was robotics.I was exposed tothe world of STEM at a very young age and I've learned a lot because of this. Currently I am apart of the FRC <a href="https://www.instagram.com/3560frc/">Team 3560</a>, from Chinguacousy Secondary School.I've been apart of 3560's buisness team for two year, and currently am the team's socail media manager.</p>
-            <!-- ADD PICTURES -->
-        </div>
+            <div id="robotics">
+                <li class='item' style="background-image: url(https://i.pinimg.com/564x/69/c2/6f/69c26f4005266ca4bf1fd3ea41194614.jpg);"></li>
+                <h3>Robotics</h3>
+                <p>One of the things I've always done since I was a child was robotics.I was exposed tothe world of STEM at a very young age and I've learned a lot because of this. Currently I am apart of the FRC <a href="https://www.instagram.com/3560frc/">Team 3560</a>, from Chinguacousy Secondary School.I've been apart of 3560's buisness team for two year, and currently am the team's socail media manager.</p>
+                <!-- ADD PICTURES -->
+            </div>
 
-        <div id="sports&dance">
-            <h3>Sports & Dance</h3>
-            <p>Some of the sports that I enjoy playing is badminton, basketball and track.This year I am on Chinguacousy Secondary School's Badminton Team. Some other things I enjoy doing in my free time is taking walks around Chinguacousy Park which is very close to my house. You will often find me walking places that are less than an hour away since I prefer to walk and get exersize rather than wait for a bus.</p>
-            <p>Another thing I enjoy doing in my free time is dancing, this is something that i've enjoyed since I was a young child.I've done mutltiple bollywood dance preformances when I was a child, as well as joing Chinguacousy's Kpop Dance Club, Garba Team, as well as our Bollywood Theatre Club.</p>
-            <!-- Include Pictures & Videos-->
-        </div>
+            <div id="sports&dance">
+                <li class='item' style="background-image: url(https://i.pinimg.com/564x/1b/f3/8e/1bf38e1b6c01b715f99cf8af1d96ced5.jpg);"></li>
+                <h3>Sports & Dance</h3>
+                <p>Some of the sports that I enjoy playing is badminton, basketball and track.This year I am on Chinguacousy Secondary School's Badminton Team. Some other things I enjoy doing in my free time is taking walks around Chinguacousy Park which is very close to my house. You will often find me walking places that are less than an hour away since I prefer to walk and get exersize rather than wait for a bus. Another thing I enjoy doing in my free time is dancing, this is something that i've enjoyed since I was a young child.I've done mutltiple bollywood dance preformances when I was a child, as well as joing Chinguacousy's Kpop Dance Club, Garba Team, as well as our Bollywood Theatre Club.</p>
+                <!-- Include Pictures & Videos-->
+            </div>
 
-        <div id="coding">
-            <h3>Coding Projects</h3>
-            <p>I've always been interested in STEM (Science, Technology, Engineering & Math). However, it was only last summer when I discovered how much I enjoyed programming and computer science. I took a summer course where I learned basic Python. This ended up helping me a lot in my computer science class. Ever since, I've been improving my coding skills as well as starting my journey of learning web development.<br>If you would like to see some more of my coding & web development projects: <a href="coding_projects.html">Coding Projects</a></p>
-            <!-- Link Coding Projects-->
-        </div>
+            <div id="coding">
+                <li class='item' style="background-image: url(https://i.pinimg.com/564x/f2/6e/f4/f26ef4f46d54b90cf87ca45f00351a9f.jpg);"></li>
+                <h3>Coding Projects</h3>
+                <p>I've always been interested in STEM (Science, Technology, Engineering & Math). However, it was only last summer when I discovered how much I enjoyed programming and computer science. I took a summer course where I learned basic Python. This ended up helping me a lot in my computer science class. Ever since, I've been improving my coding skills as well as starting my journey of learning web development.<br>If you would like to see some more of my coding & web development projects: <a href="coding_projects.html">Coding Projects</a></p>
+                <!-- Link Coding Projects-->
+            </div>
+
+            <div id="reading">
+                <li class='item' style="background-image: url('https://i.pinimg.com/736x/9b/1a/7b/9b1a7b2daf0ac47c955c0f822aaf59da.jpg');"></li>
+                <h3>Reading</h3>
+                <p>Another thing that i enjoy doing is reading</p>
+            </div>
+        </ul>
     </div>
 
     <div id="travels">
         <h2>Travels</h2>
-        <div id="india">
-            <h4>India</h4>
-            <!-- Include Pictures with captions-->
-        </div>
+        <ul>
+            <li class='item' style="background-image: url('https://i.pinimg.com/564x/b3/a4/56/b3a4565f3c8d1eb31fc0e3b6dbd64962.jpg');"></li>
+<!-- wriite about passion for traveling-->
+            <div>
+                <p>A few reasons I enjoy traveling are ...</p>
+            </div>
+<!-- travel bucket list -->
+            <li class='item' style="background-image: url(https://i.pinimg.com/564x/bf/6e/64/bf6e648f0539d773e5edbc4d25d8a40c.jpg);"></li>
+            <div id="travelwishlist">
+                <h4>Travel Bucket List</h4>
+            </div>
 
-        <div id="montreal">
-            <h4>Montreal</h4>
-            <!-- Include Pictures with captions-->
-        </div>
+            <div id="india">
+                <h4>India</h4>
+                <!-- Include Pictures with captions-->
+            </div>
 
-        <div id="toronto">
-            <h4>Toronto</h4>
-            <!-- Include Pictures with captions-->
-        </div>
+            <div id="montreal">
+                <h4>Montreal</h4>
+                <!-- Include Pictures with captions-->
+            </div>
+
+            <div id="toronto">
+                <h4>Toronto</h4>
+                <!-- Include Pictures with captions-->
+            </div>
+        </ul>
     </div>
 
     <div id="footer">
         <a href="contact_me.html">Contact Me</a>
         <!-- Soicals Link Copy from my portfolio starting page-->
     </div>
+    <script src="my portfolio.js"></script>
 </body>
 </html>

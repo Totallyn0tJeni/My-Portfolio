@@ -9,10 +9,61 @@
 <body>
 
     <main>
-        <div id="header"> 
-            <h1>About Me</h1>
-            <!-- put a image background slightly blurred-->
-        </div>
+        <header>
+            <div id="header"> 
+                <h1>About Me</h1>
+                <!-- put a image background slightly blurred-->
+            </div>
+        </header>
+
+        <div class="sidebar">
+            <header class="header">
+                <nav class="navbar">
+                    <span class="open-menu">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16">
+                            <g fill="#252a32" fill-rule="evenodd">
+                                <path d="M0 0h24v2H0zM0 7h24v2H0zM0 14h24v2H0z"/>
+                            </g>
+                        </svg>
+                    </span>
+    
+                    <h1><a href="./index.html" class="brand">Jenisha's Portfolio</a></h1>
+                    <div class="menu-wrapper">
+                        <ul class="menu">
+                            <li class="menu-block">
+                            <span class="close-menu">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                                    <path fill="#252a32" fill-rule="evenodd" d="M17.778.808l1.414 1.414L11.414 10l7.778 7.778-1.414 1.414L10 11.414l-7.778 7.778-1.414-1.414L8.586 10 .808 2.222 2.222.808 10 8.586 17.778.808z"/>
+                                </svg>
+                            </span>
+                            </li>
+        
+                            <li class="menu-item has-collapsible">
+                                <a href="about me.html" class="menu-link"><span></span>About Me</a>
+                                <ul class="menu-child">
+                                    <li class="menu-child-item">
+                                        <a href="#hobbies&intrests">Hobbies & Intrests</a>
+                                    </li>
+                                </ul>
+                            </li>
+    
+                            <li class="menu-item">
+                                <a href="artwork.html" class="menu-link">Artwork</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="coding_projects.html" class="menu-link">Coding Projects</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="travels.html" class="menu-link">Travels</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="contact_me.html" class="menu-link">Contact Me</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+        </div>    
 
         <div id="aboutme"> 
             <!-- Best Photo I have of myself -->
@@ -23,70 +74,74 @@
             <li><a href="#hobbies&intrests">Hobbies & Intrests</a></li>
             <li><a href="#travels">Travels</a></li>
         </ul>
-        
-    </main>
 
-    <div class="slider">
-        <div id="hobbies&intrests">
-            <ul>
-                <li><h2>Hobbies & Intrests</h2></li>
-                <!-- Have it like a mini slide show https://www.instagram.com/reel/C1tl_XYLFgj/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA== -->
-
-                <li class='item' style="background-image: url(https://i.pinimg.com/564x/1b/b0/af/1bb0af49b10cc60c8cfcd0be55527c47.jpg);">
-                    <div class="content" id="art">
-                        <h3 class="title" >Art</h3>
-                        <p class="description" >Write about artwork that i have made & how i got intredted in in... See more in <strong><a href="artwork.html">artwork</a></strong> page</p>
-                        <button><a href="artwork.html">Artwork</a></button>
-                    </div>
-                </li>
-
-                <li class='item' style="background-image: url(https://i.pinimg.com/564x/69/c2/6f/69c26f4005266ca4bf1fd3ea41194614.jpg);">
-                    <div class="content"  id="robotics">
-                        <h3 class="title">Robotics</h3>
-                        <p class="description"> One of the things I've always done since I was a child was robotics.I was exposed tothe world of STEM at a very young age and I've learned a lot because of this. Currently I am apart of the FRC <a href="https://www.instagram.com/3560frc/">Team 3560</a>, from Chinguacousy Secondary School.I've been apart of 3560's buisness team for two year, and currently am the team's socail media manager.</p>
-                        <!-- ADD PICTURES -->
-                    </div>
-                </li>
-
-                <li class='item' style="background-image: url(https://i.pinimg.com/564x/1b/f3/8e/1bf38e1b6c01b715f99cf8af1d96ced5.jpg);">
-                    <div class="content" id="sports&dance">
-                        <h3  class="title">Sports & Dance</h3>
-                        <p class="description">Some of the sports that I enjoy playing is badminton, basketball and track.This year I am on Chinguacousy Secondary School's Badminton Team. Some other things I enjoy doing in my free time is taking walks around Chinguacousy Park which is very close to my house. You will often find me walking places that are less than an hour away since I prefer to walk and get exersize rather than wait for a bus. Another thing I enjoy doing in my free time is dancing, this is something that i've enjoyed since I was a young child.I've done mutltiple bollywood dance preformances when I was a child, as well as joing Chinguacousy's Kpop Dance Club, Garba Team, as well as our Bollywood Theatre Club.</p>
-                        <!-- Include Pictures & Videos-->
-                    </div>
-                </li>
-
-                <li class='item' style="background-image: url(https://i.pinimg.com/564x/f2/6e/f4/f26ef4f46d54b90cf87ca45f00351a9f.jpg);">
-                    <div class="content" id="coding">
-                        <h3 class="title">Coding Projects</h3>
-                        <p class="description">I've always been interested in STEM (Science, Technology, Engineering & Math). However, it was only last summer when I discovered how much I enjoyed programming and computer science. I took a summer course where I learned basic Python. This ended up helping me a lot in my computer science class. Ever since, I've been improving my coding skills as well as starting my journey of learning web development. If you would like to see some more of my coding & web development projects and learn more about my journey.</p>
-                        <button><a href="coding_projects.html">Coding Projects</a></button>
-                        <!-- Link Coding Projects-->
-                    </div>
-                </li>
-
-                <li class='item' style="background-image: url('https://i.pinimg.com/736x/9b/1a/7b/9b1a7b2daf0ac47c955c0f822aaf59da.jpg');">
-                    <div class="content" id="reading">
-                        <h3 class="title">Reading</h3>
-                        <p class="description">Another thing that i enjoy doing is reading</p>
-                    </div>
-                </li>
-
-                <li class='item' style="background-image: url('https://i.pinimg.com/564x/b3/a4/56/b3a4565f3c8d1eb31fc0e3b6dbd64962.jpg');">
-                    <div class="content" id="travels">
-                        <h4>Travels</h4>
-                        <p>A few reasons I enjoy traveling are ... want to learn more about the places i've been to and where i plan to visit in the comming years.</p>
-                        <button><a href="travels.html">Learn More</a></button>
-                    </div>
-                </li>
-            </ul>
+        <div class="slider">
+            <div id="hobbies&intrests">
+                <ul>
+                    <li><h2>Hobbies & Intrests</h2></li>
+                    <!-- Have it like a mini slide show https://www.instagram.com/reel/C1tl_XYLFgj/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA== -->
+    
+                    <li class='item' style="background-image: url(https://i.pinimg.com/564x/f9/5e/83/f95e83befe9e8064214eff10eafb43ba.jpg);">
+                        <!--https://i.pinimg.com/564x/1b/b0/af/1bb0af49b10cc60c8cfcd0be55527c47.jpg 
+                         https://wallpapers.com/images/hd/new-york-city-at-night-3w4i009ogoesa632.jpg
+                        https://i.pinimg.com/564x/ac/13/2c/ac132ccd7c90afee4b56b71f074919f9.jpg
+                        https://i.pinimg.com/564x/e1/f1/df/e1f1df216fe824cc05eaa31e596783bd.jpg -->
+                        <div class="content" id="art">
+                            <h3 class="title" >Art</h3>
+                            <p class="description" >Write about artwork that i have made & how i got intredted in in... See more in <strong><a href="artwork.html">artwork</a></strong> page</p>
+                            <button href="artwork.html">Artwork</button>
+                        </div>
+                    </li>
+    
+                    <li class='item' style="background-image: url(https://i.pinimg.com/564x/69/c2/6f/69c26f4005266ca4bf1fd3ea41194614.jpg);">
+                        <div class="content"  id="robotics">
+                            <h3 class="title">Robotics</h3>
+                            <p class="description"> One of the things I've always done since I was a child was robotics.I was exposed tothe world of STEM at a very young age and I've learned a lot because of this. Currently I am apart of the FRC <a href="https://www.instagram.com/3560frc/">Team 3560</a>, from Chinguacousy Secondary School.I've been apart of 3560's buisness team for two year, and currently am the team's socail media manager.</p>
+                            <!-- ADD PICTURES -->
+                        </div>
+                    </li>
+    
+                    <li class='item' style="background-image: url(https://i.pinimg.com/564x/1b/f3/8e/1bf38e1b6c01b715f99cf8af1d96ced5.jpg);">
+                        <div class="content" id="sports&dance">
+                            <h3  class="title">Sports & Dance</h3>
+                            <p class="description">Some of the sports that I enjoy playing is badminton, basketball and track.This year I am on Chinguacousy Secondary School's Badminton Team. Some other things I enjoy doing in my free time is taking walks around Chinguacousy Park which is very close to my house. You will often find me walking places that are less than an hour away since I prefer to walk and get exersize rather than wait for a bus. Another thing I enjoy doing in my free time is dancing, this is something that i've enjoyed since I was a young child.I've done mutltiple bollywood dance preformances when I was a child, as well as joing Chinguacousy's Kpop Dance Club, Garba Team, as well as our Bollywood Theatre Club.</p>
+                            <!-- Include Pictures & Videos-->
+                        </div>
+                    </li>
+    
+                    <li class='item' style="background-image: url(https://i.pinimg.com/564x/f2/6e/f4/f26ef4f46d54b90cf87ca45f00351a9f.jpg);">
+                        <div class="content" id="coding">
+                            <h3 class="title">Coding Projects</h3>
+                            <p class="description">I've always been interested in STEM (Science, Technology, Engineering & Math). However, it was only last summer when I discovered how much I enjoyed programming and computer science. I took a summer course where I learned basic Python. This ended up helping me a lot in my computer science class. Ever since, I've been improving my coding skills as well as starting my journey of learning web development. If you would like to see some more of my coding & web development projects and learn more about my journey.</p>
+                            <button href="coding_projects.html">Coding Projects</button>
+                            <!-- Link Coding Projects-->
+                        </div>
+                    </li>
+    
+                    <li class='item' style="background-image: url('https://i.pinimg.com/736x/9b/1a/7b/9b1a7b2daf0ac47c955c0f822aaf59da.jpg');">
+                        <div class="content" id="reading">
+                            <h3 class="title">Reading</h3>
+                            <p class="description">Another thing that i enjoy doing is reading</p>
+                        </div>
+                    </li>
+    
+                    <li class='item' style="background-image: url('https://i.pinimg.com/564x/b3/a4/56/b3a4565f3c8d1eb31fc0e3b6dbd64962.jpg');">
+                        <div class="content" id="travels">
+                            <h4>Travels</h4>
+                            <p>A few reasons I enjoy traveling are ... want to learn more about the places i've been to and where i plan to visit in the comming years.</p>
+                            <button href="travels.html">Learn More</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
 
-    <nav class='nav'>
-        <ion-icon class='btn prev' name="arrow-back-outline"></ion-icon>
-        <ion-icon class='btn next' name="arrow-forward-outline"></ion-icon>
-    </nav>
+        
+        <nav class='nav'>
+            <ion-icon class='btn prev' name="arrow-back-outline"></ion-icon>
+            <ion-icon class='btn next' name="arrow-forward-outline"></ion-icon>
+        </nav>
+    </main>
 
     <footer>    
         <div id="footer">

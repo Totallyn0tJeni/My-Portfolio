@@ -62,8 +62,8 @@
     display: none;
   
     & .title {
-      font-family: 'arial-black';
-      text-transform: uppercase;
+        font-family: 'arial-black';
+        text-transform: uppercase;
     }
   
     & .description {

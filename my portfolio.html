@@ -6,28 +6,54 @@
     <title>Jenisha's Portfolio</title>
     <link rel="stylesheet" href="my portfolio.css">
 </head>
+
 <body>
+    <div class="sidebar">
+        <header class="header">
+            <nav class="navbar">
+                <span class="open-menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16">
+                        <g fill="#252a32" fill-rule="evenodd">
+                            <path d="M0 0h24v2H0zM0 7h24v2H0zM0 14h24v2H0z"/>
+                        </g>
+                    </svg>
+                </span>
 
-    <div id="sidebar">
-        <span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16">
-              <g fill="#252a32" fill-rule="evenodd">
-                <path d="M0 0h24v2H0zM0 7h24v2H0zM0 14h24v2H0z" />
-              </g>
-            </svg>
-            <ul>
-                <li><a href="about me.html">About Me</a></li>
-                <ul>
-                    <li><a href="#hobbies&intrests">Hobbies & Intrests</a></li>
-                    <li><a href="#travels">Travels</a></li>
-                </ul>
-                <li><a href="artwork.html">Artwork</a></li>
-                <li><a href="coding_projects.html">Coding Projects</a></li>
-                <li><a href=""></a></li>
-                <li><a href="contact_me.html">Contact Me</a></li>
-            </ul>
-
-          </span>
+                <h1><a href="./index.html" class="brand">Jenisha's Portfolio</a></h1>
+                <div class="menu-wrapper">
+                    <ul class="menu">
+                        <li class="menu-block">
+                        <span class="close-menu">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                                <path fill="#252a32" fill-rule="evenodd" d="M17.778.808l1.414 1.414L11.414 10l7.778 7.778-1.414 1.414L10 11.414l-7.778 7.778-1.414-1.414L8.586 10 .808 2.222 2.222.808 10 8.586 17.778.808z"/>
+                            </svg>
+                        </span>
+                        </li>
+    
+                        <li class="menu-item has-collapsible">
+                            <a class="menu-link"><span></span>About Me</a>
+                            <ul class="menu-child">
+                                <li class="menu-child-item">
+                                    <a href="about me.html">Hobbies & Intrests</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="artwork.html" class="menu-link">Artwork</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="coding_projects.html" class="menu-link">Coding Projects</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="travels.html" class="menu-link">Travels</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="contact_me.html" class="menu-link">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
     </div>
 
     <!-- Glasmorphism https://www.instagram.com/reel/C0l2rBALhPk/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA== -->
@@ -45,24 +71,28 @@
         <a href="https://vsco.co/tottalyn0tjeni/gallery" id="vsco profile">Vsco</a>
         <a href="" id="github">GitHub</a>
         <a href="" id="tiktok">Tiktok</a>
-
     </header>
 
-    <div id="contents">
-        <ul>
-            <li><a href="about me.html">About Me</a></li>
-            <li><a href="artwork.html">Artwork</a></li>
-            <li><a href="coding_projects.html">Coding Projects</a></li>
-            <li><a href=""></a></li>
-            <li><a href="contact_me.html">Contact Me</a></li>
-        </ul>
-    </div>
+    <main class="page">
+        <div id="contents">
+            <ul>
+                <li><a href="about me.html">About Me</a></li>
+                <li><a href="artwork.html">Artwork</a></li>
+                <li><a href="coding_projects.html">Coding Projects</a></li>
+                <li><a href="travels.html">Travels</a></li>
+                <li><a href="contact_me.html">Contact Me</a></li>
+            </ul>
+        </div>
 
-    <div id="pictures_pintrest feed">
-        <!-- Make something similar to a pintrest feed with pictures that match my aesthic -->
-    </div>
+        <div id="pictures_pintrest feed">
+            <!-- Make something similar to a pintrest feed with pictures that match my aesthic -->
+        </div>
+    </main>
+
+    <footer>
+        <p class="copyright-text">© Copyright 2024 Jenisha Patel </p>
+    </footer>
 
     <script src="my portfolio.js"></script>
-
 </body>
 </html>

@@ -15,7 +15,7 @@
     text-rendering: optimizeLegibility;
   }
   body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    /*font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; - fonts used*/
     font-size: 1rem;
     font-weight: normal;
     line-height: 1.5;
@@ -23,14 +23,12 @@
     background: #e6e6fa;
     overflow: hidden;
   }
-
   img {
     display: block;
     width: 60%;
     height: 50%;
     margin: 1rem 20rem;
   }
-
   a, button {
     font-family: inherit;
     font-size: inherit;
@@ -40,7 +38,6 @@
     background: none;
     text-decoration: none;
   }
-  
   .open-menu, .close-menu {
     cursor: pointer;
     border: none;
@@ -66,7 +63,6 @@
     text-transform: uppercase;
     text-rendering: optimizeLegibility;
   }
-  
   .header {
     position: relative;
     width: 100%;
@@ -195,7 +191,9 @@
   .header .navbar .menu-item.active.has-collapsible span::after {
     transform: rotate(90deg);
   }
-  
+  .contents {
+    text-indent: 25px;
+  }
   @media screen and (max-width:900px){
     img{
       width: 90%;
@@ -212,3 +210,5 @@
       background-color: #e6e6fa;
     }
   }
+
+  
